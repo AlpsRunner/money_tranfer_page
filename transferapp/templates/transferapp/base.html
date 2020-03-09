@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title|default:"банк"|capfirst }}</title>
+    {% block css %}
+    {% endblock %}
+    {% block js %}
+        <script src="{% static 'js/money_transfer_scripts.js' %}"></script>
+    {% endblock %}
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>

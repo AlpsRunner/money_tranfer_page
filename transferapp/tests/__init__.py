@@ -1,0 +1,2 @@
+from .test_transfer_page import TransferPageTest
+from .test_transfer_proceed import TransferProceedTest

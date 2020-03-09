@@ -1,0 +1,12 @@
+{% extends 'transferapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="tranfer-form">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="перечислить">
+        </form>
+    </div>
+{% endblock %}

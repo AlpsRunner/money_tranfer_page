@@ -1,0 +1,7 @@
+{% extends 'transferapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <h3>Перевод пользователя {{ src_user }} выполнен успешно</h3>
+    <a href="{% url 'transfer_page' %}">на главную</a>
+{% endblock %}
