@@ -31,5 +31,5 @@ simple django app with rest api and tests
 
 # Technical Details:
 
-No API authentication implemented yet
+No API authentication implemented yet.
 Works in async and sync modes (symply remove js file from base.html)
